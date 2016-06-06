@@ -554,6 +554,13 @@
             timer=setTimeout(reSizeFun(),200);
         })
 
+        // 统计js延迟三秒加载
+        setTimeout(function(){
+            var taJs = document.createElement("script")
+            taJs.src = "http://tajs.qq.com/stats?sId=56689622"
+            var s = document.getElementsByTagName("script")[0]
+            s.parentNode.insertBefore(taJs,s)
+        },3000);
 
     });
 </script>
