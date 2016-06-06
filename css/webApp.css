@@ -1084,8 +1084,9 @@ body{ line-height:1rem; position: relative; -webkit-text-size-adjust: none;font-
 }
 .dg-wrapper .item .pic{
     width: 5.5rem;
-    height: 3.4rem;
+    height: 6.4rem;
     margin-bottom: 0;
+    overflow: hidden;
 }
 .dg-wrapper .item .pic img{width: 100%;}
 .dg-wrapper .item .cont{
@@ -1094,7 +1095,16 @@ body{ line-height:1rem; position: relative; -webkit-text-size-adjust: none;font-
     background-color: #fff;
 }
 .dg-wrapper .item h3{font-weight: normal;font-size: .5rem;color: #333;}
-.dg-wrapper .item p{font-size: .4rem;}
+.dg-wrapper .item p{font-size: .4rem;
+    display: inline-block;}
+
+.dg-wrapper .moreInfo {
+    padding-top: .2rem;
+}
+.dg-wrapper .moreInfo p{
+    text-align: left;
+    line-height: 1.6;
+}
 .dg-wrapper .item .viewDetail{
     display: block;
     margin: .4rem auto 0;

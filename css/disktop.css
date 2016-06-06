@@ -250,10 +250,11 @@ div.productIntroduction .productIntroductionCont .piItem .pic{
 	background-size: contain;
 }
 .piItem .pic img{width:100%;}
-div.productIntroduction .productIntroductionCont .piItem .cont{}
-div.productIntroduction .productIntroductionCont .piItem .cont .tit{font-size: 0.4rem;margin:0.4rem 0 0.275rem;}
-div.productIntroduction .productIntroductionCont .piItem .cont .en{font-size: 0.35rem;margin-bottom: 0.525rem;}
-div.productIntroduction .productIntroductionCont .piItem .cont .description{font-size: 0.35rem;}
+div.productIntroduction .productIntroductionCont .piItem .cont{    height: 178px;}
+div.productIntroduction .productIntroductionCont .piItem .cont .tit{font-size: 0.4rem;margin:0.3rem 0 0.275rem;}
+div.productIntroduction .productIntroductionCont .piItem .cont .en{font-size: 0.35rem;margin-bottom: 0.225rem;}
+div.productIntroduction .productIntroductionCont .piItem .cont .description{
+    font-size: 0.35rem;}
 div.productIntroduction .productIntroductionCont .piItem .cont .priceRange{font-size: 0.30rem;line-height: 0.5rem;}
 div.productIntroduction .productIntroductionCont .piItem .address{padding-left:  2em;text-align: left;margin-top: 13px;}
 div.productIntroduction .productIntroductionCont .piItem .address .red{color:red;}
@@ -342,11 +343,11 @@ div.contactUs .productIntroductionCont .item .pic:hover+.cont/*,div.ourSdvantage
 }
 .aboutUs .aboutUsInfo .cont .QRCode .wenLogo img{width: 95px;}
 .aboutUs .aboutUsInfo .cont .QRCode .wenLogo span{margin-top:0.325rem;display: block;}
-.aboutUs .aboutUsInfo .cont .contTit{font-size: 0.8rem;color:#32c08c;text-align:center;padding: 0.55rem 2.025rem 0 1.75rem;float: left;}
+.aboutUs .aboutUsInfo .cont .contTit{font-size: 0.7rem;color:#32c08c;text-align:center;padding: 0.35rem 0.825rem 0 0;float: left;}
 .aboutUs .aboutUsInfo .cont .contTit span,.aboutUs .aboutUsInfo .cont .contTit strong{display: block;}
 
 .aboutUs .aboutUsInfo .cont .contTit span{margin-bottom: 0.525rem;font-size: 0.7rem;}
-.aboutUs .aboutUsInfo .cont .weContact{float: left;padding-left: 1.9rem;text-align:center;color:#717171;border-left: 0.025rem solid #dbdbdb;}
+.aboutUs .aboutUsInfo .cont .weContact{float: left;padding-left: 1.0rem;text-align:center;color:#717171;border-left: 0.025rem solid #dbdbdb;}
 .aboutUs .aboutUsInfo .cont .weContact .phone{color:#32c08c;font-size: 0.6rem;}
 .aboutUs .aboutUsInfo .cont .weContact p:nth-child(2){margin:0.275rem 0 0.225rem; }
 .aboutUs .aboutUsInfo .cont .weContact p:nth-child(3){margin-bottom: 0.5rem;}
